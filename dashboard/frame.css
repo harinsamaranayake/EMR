@@ -11,11 +11,38 @@ div.container{
 
 .header{
 	margin: 0px;
-	border: 0px;
-	padding: 0px;
-	height: 60px;
-	background-color:#7C7C7C;
+	border:0px;
+	padding:0px;
+	height: 51px;
+
+	border-color: black;	
+	background-color:#F8F9F9;
 	float:top;	
+}
+
+.navleft{
+	margin:0px;
+	border:1px;
+	width: 15%;
+	height:50px;
+
+	background-color: #004B70;
+	border-color: red;	
+
+	float:left;	
+}
+
+.navright{
+	margin:0px;
+	margin-left: 1px;
+	border:1px;
+	width: 84.90%;
+	height:50px;
+
+	background-color:#1473A1;
+	border-color: red;	
+
+	float:right;	
 }
 
 .body {
@@ -24,22 +51,24 @@ div.container{
     overflow:auto;
     border-color: none;
     border-width: 0px;
+    background-color: #ffffff;
 }
 
 .left {
     float:left; 
-    width: 20%;
-	background:#037085;
+    width: 15%;
+	background:#F4F6F6;
     height: 620px;
     border-color: black;
     border-width: 0px;
+    border-right: 0px;
 }
 
 .right {
 	display: inline;
 	float: right;
-	width: 80%;
-    background:green;
+	width: 84.90%;
+    background:#ffffff;
     height: 620px;    
 }
 
@@ -50,29 +79,20 @@ div.container{
 
 .down{				
 	height: 60px;
-	background: #E9F7F9;
+	background: #000000;
 }
 
-.footer{
+.m11{
 	margin: 0px;
 	border: 0px;	
 	padding: 5px;	
-	height: 10px;	
+	height: 25px;	
 	font-size: 10px;
 	font-family: sans-serif;	
 	color:#ffffff;
 	text-align: center;
 	vertical-align: middle;
-	background-color:#373939;	
-}
-
-.navleft{
-	background-color: black;
-	height:60px;
-	width: 20%;
-	float:left;
-	border:0px;
-	margin:0px;	
+	background-color:#000000;	
 }
 
 .col-lg-6{

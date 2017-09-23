@@ -1,0 +1,30 @@
+li.nav{
+	color: #C0C0C0;
+	padding: 10px 20px;
+	font-size: 15px;
+	font:times;	
+}
+
+li.nav:hover{
+	font-size: 15px;	
+	padding: 10px 20px;
+	background-color: #293341;
+	color: #ffffff;	
+	cursor: pointer;;	
+}
+
+.image{
+	width: 25px;
+	height: 25px;
+	padding-top: 1px;
+	margin-right: 20px;
+}
+
+.image:hover{
+	width: 10px;
+	height: 10px;
+	padding-top: 1px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
