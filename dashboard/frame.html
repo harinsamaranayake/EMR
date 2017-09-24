@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title>frame</title>
-	<link rel="stylesheet" type="text/css" href="frame.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">	
+	<link rel="stylesheet" type="text/css" href="frame.css">
+	<link rel="stylesheet" type="text/css" href="customer.css">
+	<link rel="stylesheet" type="text/css" href="leftnav.css">
+	<link rel="stylesheet" type="text/css" href="topnav.css">
 </head>
 
 <body style="margin: 0px;">
@@ -15,20 +18,25 @@
 
 	<div class="header">
 		<span class="navleft">
-			<!-- <span class="col-lg-6">
-				<img src="icon/ic_emr.png" alt="icon" width="40px" height="40px" style="padding-top:10px;padding-left: 50px;">
-			</span>
-
-			<span class="col-lg-6">
-				<h1 style="padding-top:12px;margin: 0px;border: 0px;">
-					<span>E</span>
-					<span>M</span>
-					<span>R</span>
-				</h1>
-			</span> -->
+			<!-- top right -->
+			<img src="icon/emr.png" class="tl_image">
+			<span class="tl_text">EMR</span>
 		</span>
 
-		<span class="navright" style="display: inline-block;">
+		<span class="navcenter">
+			<!-- top right -->
+		</span> 
+
+		<span class="navright">
+			<!-- top right -->			
+			<img src="icon/myaccount.png" style="width: 30px;height: 30px;vertical-align: middle;" class="tl_image">
+			<span class="tl_text">Harin Samaranayake</span>				
+		</span> 
+
+		<span class="logout">				
+			<!-- logout-->						
+			<img src="icon/power.png" style="width: 20px;height: 20px;margin-left: 15px;margin-top: 15px;" class="tl_image">
+			<span style="font-size: 15px;margin-top:10px;" class="tl_text" >Logout</span>				
 		</span> 
 	</div>
 
@@ -36,21 +44,22 @@
 
 		<span class="left">
 			<!-- left navigator bar -->
-			<ul class="unorder">				
-				<li><a href="#" class="unorder-item">Readings</a></li>
-				<li><a href="#" class="unorder-item">Packets</a></li>				
-				<li><a href="#" class="unorder-item">Reader</a></li>
-				<li><a href="#area_administrator " class="unorder-item">Customer</a></li>
-				<li><a href="#" class="unorder-item">Account</a></li>
-			</ul>				  
-		</span>
-
-		<span class="right">
-			<!-- content goes here -->	
-		</span>	
+			<div style="width:202px;height:620px;background-color:#0B3535;">
+				<ul class="nav">
+					<li class="nav"><img src="icon/myaccount.png" class="image">My Account</li>
+					<li class="nav"><img src="icon/customer.png" class="image">Customer</li>
+					<li class="nav"><img src="icon/reader.png" class="image">Reader</li>
+					<li class="nav"><img src="icon/readings.png" class="image">Readings</li>
+					<li class="nav"><img src="icon/map.png" class="image">Maps</li>
+					<li class="nav"><img src="icon/analytics.png" class="image">Analytics</li>
+					<li class="nav"><img src="icon/notifications.png" class="image">Notifications</li>
+					<li class="nav"><img src="icon/settings.png" class="image">Settings</li>		
+				</ul>
+			</div>			  
 	</div>
 
-	<div class="footer">
+	<div class="m11">
+		<!-- footer -->
 		Copyrights &copy; 2017 EMR
 	</div>
 
