@@ -17,7 +17,7 @@ li.nav:hover{
 ul.nav{
 	list-style-type: none;
 	margin:0px;
-	padding: 0px;
+	padding-top: 40px;
 }
 
 .image{
