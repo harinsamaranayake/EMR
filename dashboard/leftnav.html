@@ -5,11 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="leftnav.css">
 	<title>List</title>
 </head>
-<body>
-<!-- from here -->
+<body name="123">
+<!-- from here --> 
 <div class="navlist">
 	<ul class="nav">
-		<li class="nav"><img src="icon/myaccount.png" class="image">My Account</li>
+		<li class="nav" onclick="myred()"><img src="icon/myaccount.png" class="image">My Account</li>
 		<li class="nav"><img src="icon/customer.png" class="image">Customer</li>
 		<li class="nav"><img src="icon/reader.png" class="image">Reader</li>
 		<li class="nav"><img src="icon/readings.png" class="image">Readings</li>
@@ -21,3 +21,11 @@
 </div>
 
 </body>
+
+<script type="text/javascript">
+	function myred() {
+	    document.getElementByName("123").style.backgroundcolor = "red";	       
+	}	
+</script>
+
+</html>

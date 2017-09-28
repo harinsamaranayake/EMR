@@ -8,10 +8,21 @@
 	padding-top: 0px;
 }
 
+.header{
+	margin-left: 50px;
+	padding-top: 15px;
+	font-size: 25px;
+	color: #0EB3B3;
+}
+
 .form_table{
-	margin: 0px;		
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 40px;		
 	border:0px solid #F6F8F8; 
 	border-collapse:collapse;
+	background-color:;	
+	display: inline-block;
 }
 
 tr.form_table_row{
@@ -36,7 +47,7 @@ input.form_table_row_input_radio{
 	margin-left: 10px;	
 }
 
-.form_table_row_select{
+.form_table_row_textarea{
 	margin-left: 10px;
 	border-radius: 8px;
 	padding: 3px 5px;
@@ -44,12 +55,13 @@ input.form_table_row_input_radio{
 	color:;	
 }
 
-.form_table_row_textarea{
+.form_table_row_select{
 	margin-left: 10px;
+	border:1px solid #CDCDCD;
+	border-collapse: collapse;
 	border-radius: 8px;
-	padding: 3px 5px;
-	border-color:#CDCDCD;
-	color:;	
+	padding: 3px 10px;	
+	width:110px;
 }
 
 .button{
