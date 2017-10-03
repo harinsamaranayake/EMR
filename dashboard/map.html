@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<!-- from here -->
+	<div class="window_container">
+		<script>
+      		function initMap() {
+        		var uluru = {lat: -25.363, lng: 131.044};
+        		var map = new google.maps.Map(document.getElementById('map'), {
+          			zoom: 4,
+          			center: uluru
+        		});
+        		var marker = new google.maps.Marker({
+          			position: uluru,
+          			map: map
+        		});
+      		}
+    	</script>
+    	<script async defer
+    		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+   		</script>
+	</div>
+</body>
+</html>

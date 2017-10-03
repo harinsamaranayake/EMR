@@ -91,3 +91,10 @@ input.form_table_row_input_radio{
     background-color: #0EB3B3; 
     color: white;   
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    /*outline: none;    */
+}
