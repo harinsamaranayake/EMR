@@ -11,20 +11,25 @@
 		    width: 80%;
 		    margin-left: 50px;
 		    margin-top: 20px;
-		    border: 2px solid #0EB3B3;		    
+		    border: 1px solid #CAEAFF;		    
 		}
 
 		th {
-		    border: 1px solid #000000;
+		    border: 1px solid #CAEAFF;
 		    text-align: left;
 		    padding: 8px;
-		    background-color: #dddddd;
+		    background-color: #3498DB;
+		    color: #ffffff;
 		}
 
 		td {
-		    border: 1px solid #000000;
+		    border: 1px solid #CAEAFF;
 		    text-align: left;
-		    padding: 2px;
+		    padding: 2px;		    
+		}
+
+		tr:nth-child(even){
+			background-color: #EDF7FD;
 		}		
 
 		tr:hover{
@@ -32,9 +37,10 @@
 		}
 	</style>
 </head>
-<body>
+
+<body >
 	<!-- from here -->
-	<div class="window_container">
+	<div class="window_container" style="background-color: #ffffff">
 		<div class="header">
 			<span><u>Customers</u></span>						
 		</div>
@@ -48,19 +54,15 @@
 
 			$connect=mysqli_connect($server,$username,$password,$database);
 
-			if($connect){
-				echo 'Success';
-			}else{
-				die('Error.');
-			}
+			// if($connect){
+			// 	echo 'Success';
+			// }else{
+			// 	die('Error.');
+			// }
 
-			$query='select * from customer';
+			$query='select * from Customer';
 
-			$resultset=mysqli_query($connect,$query);
-
-			while($row=mysql_fetch_array($resultset)){
-				echo $row[0];
-			}
+			$rs=mysqli_query($connect,$query);		
 
 		?>
 
@@ -76,15 +78,27 @@
 					<th class="form_table_row_description">Email</th>					
 				</tr>
 
-				<tr>
-					<td class="form_table_row_description">NIC</td>
-					<td class="form_table_row_description">Name</td>
-					<td class="form_table_row_description">Gender</td>
-					<td class="form_table_row_description">Address</td>
-					<td class="form_table_row_description">Telephone</td>
-					<td class="form_table_row_description">Mobile</td>
-					<td class="form_table_row_description">Email</td>					
-				</tr>													
+				<?php
+
+				// if ($rs) {
+				// 	echo 'Success';
+				// }else{
+				// 	die ('SQL Error: ' . mysqli_error($conn));
+				// }
+
+				while ($row = mysqli_fetch_array($rs)){					
+					echo '<tr>							
+							<td class="form_table_row_description">'.$row[0].'</td>
+							<td class="form_table_row_description">'.$row[1].' '.$row[2].' '.$row[3].'</td>
+							<td class="form_table_row_description">'.$row[4].'</td>
+							<td class="form_table_row_description">'.$row[5].' '.$row[6].' '.$row[7].'</td>	
+							<td class="form_table_row_description">'.$row[8].'</td>
+							<td class="form_table_row_description">'.$row[9].'</td>	
+							<td class="form_table_row_description">'.$row[10].'</td>											
+						</tr>';
+				}
+
+				?>										
 			</table>
 		</form>
 	</div>

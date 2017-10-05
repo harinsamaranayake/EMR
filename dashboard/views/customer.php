@@ -2,15 +2,15 @@
 <html>
 <head>
 	<title>Customer Registration</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../form.css">
 </head>
 <body>
 	<!-- from here -->
 	<div class="window_container">
 		<div class="header">
 			<span><u>New Customer</u></span>						
-		</div>
+		</div>		
 
 		<form method="post" action="customer.php">
 			<table  class="form_table ">
@@ -74,7 +74,7 @@
 					</td>
 				</tr>							
 			</table>
-		</form>
+		</form>		
 	</div>
 </body>
 </html>
