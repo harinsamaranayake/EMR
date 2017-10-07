@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Customer Registration</title>
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../form.css">
+	<title>Reader Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
 </head>
 <body>
 	<!-- from here -->
 	<div class="window_container">
 		<div class="header">
-			<span><u>New Customer</u></span>						
-		</div>		
+			<span><u></u></span>						
+		</div>
 
 		<form method="post" action="customer.php">
 			<table  class="form_table ">
 				<tr class="form_table_row">
 					<td class="form_table_row_description">National Identity Card Number</td>
 					<td><input type="text" name="nic" placeholder="nic" size="40" class="form_table_row_input"></td>
+				</tr>
+
+				<tr class="form_table_row">
+					<td class="form_table_row_description">EPF Number</td>
+					<td><input type="text" name="epf" placeholder="epf" size="40" class="form_table_row_input"></td>
 				</tr>
 
 				<tr class="form_table_row">
@@ -43,29 +48,34 @@
 				</tr>
 
 				<tr class="form_table_row">
-					<td class="form_table_row_description">Contact Address</td>
-					<td><input type="text" name="address_one" placeholder="address line one" size="40" class="form_table_row_input"></td>
-				</tr>
-
-				<tr class="form_table_row">
-					<td class="form_table_row_description"></td>
-					<td><input type="text" name="address_two" placeholder="address line two" size="40" class="form_table_row_input"></td>
-				</tr>
-
-				<tr class="form_table_row">
-					<td class="form_table_row_description"></td>
-					<td><input type="text" name="address_three" placeholder="address line three" size="40" class="form_table_row_input"></td>
-				</tr>
-
-				<tr class="form_table_row">
 					<td class="form_table_row_description">Telephone</td>
-					<td><input type="text" name="residential_tp" placeholder="telephone" size="40" class="form_table_row_input"></td>
+					<td><input type="text" name="tp" placeholder="telephone" size="40" class="form_table_row_input"></td>
 				</tr>
 
 				<tr class="form_table_row">
 					<td class="form_table_row_description">Mobile</td>
-					<td><input type="text" name="mobile_tp" placeholder="mobile" size="40" class="form_table_row_input"></td>
+					<td><input type="text" name="mobile" placeholder="mobile" size="40" class="form_table_row_input"></td>
 				</tr>
+
+				<tr class="form_table_row">
+					<td class="form_table_row_description">Email</td>
+					<td><input type="text" name="email" placeholder="email" size="40" class="form_table_row_input"></td>
+				</tr>
+
+				<tr class="form_table_row">
+					<td class="form_table_row_description">Username</td>
+					<td><input type="text" name="username" placeholder="username"  size="40"class="form_table_row_input"></td>
+				</tr>
+
+				<tr class="form_table_row">
+					<td class="form_table_row_description">Password</td>
+					<td><input type="password" name="password" placeholder="password"  size="40"class="form_table_row_input"></td>
+				</tr>
+
+				<tr class="form_table_row">
+					<td class="form_table_row_description">Confirm Password</td>
+					<td><input type="password" name="cpassword" placeholder="confirm password"  size="40"class="form_table_row_input"></td>
+				</tr>				
 
 				<tr class="form_table_row">
 					<td class="form_table_row_description"></td>
@@ -74,7 +84,7 @@
 					</td>
 				</tr>							
 			</table>
-		</form>		
+		</form>
 	</div>
 </body>
 </html>

@@ -3,11 +3,12 @@
 <head>
 	<title>Add Rates</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="form.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
 </head>
 <body>
-	<!-- from here -->
+	
 	<div class="window_container">
+		<!-- from here -->
 		<div class="header">
 			<span><u>New Rates</u></span>						
 		</div>

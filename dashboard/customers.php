@@ -41,7 +41,7 @@
 <body >
 	<!-- from here -->
 	<div class="window_container" style="background-color: #ffffff">
-		<div class="header">
+		<div class="header" style="padding: 20px 50px;">
 			<span><u>Customers</u></span>						
 		</div>
 
@@ -69,6 +69,7 @@
 		<form method="post" action="customer.php">
 			<table>
 				<tr>
+					<th></th>
 					<th>NIC</th>
 					<th class="form_table_row_description">Name</th>
 					<th class="form_table_row_description">Gender</td>
@@ -87,7 +88,8 @@
 				// }
 
 				while ($row = mysqli_fetch_array($rs)){					
-					echo '<tr>							
+					echo '<tr>
+							<td><input type="checkbox"  style="margin-left:5px;"></td>						
 							<td class="form_table_row_description">'.$row[0].'</td>
 							<td class="form_table_row_description">'.$row[1].' '.$row[2].' '.$row[3].'</td>
 							<td class="form_table_row_description">'.$row[4].'</td>
