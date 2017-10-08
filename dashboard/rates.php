@@ -13,6 +13,24 @@
 	<link rel="stylesheet" type="text/css" href="css/topnav.css">
 
 	<link rel="stylesheet" type="text/css" href="css/home.css">
+
+	<?php
+
+	$server='localhost';
+	$username='root';
+	$password='';
+	$database='emr';
+
+	$connect=mysqli_connect($server,$username,$password,$database);
+
+	// if($connect){
+	// 	echo 'Success';
+	// }else{
+	// 	die('Error.');
+	// }	
+
+	?>
+	
 </head>
 
 <body style="margin: 0px;">
@@ -73,12 +91,34 @@
 					<span><u>System Updates</u></span>						
 				</div>
 
-				
+					<?php
+
+					$phaseCount="select count(phaseId) as count from Phase";
+					//$amphereCount="select count(amphereId) as  from Phase";
+					//$occupantTypeCount="select count(phaseId) as Id from Phase";
+					//$connectionCount="select count(phaseId) as Id from Phase";
+					//$areaCount="select count(phaseId) as Id from Phase";
+
+					$rs=mysqli_query($connect,$phaseCount);
+
+					if ($rs) {
+						// echo 'Success';
+
+						$row = mysqli_fetch_array($rs);
+						$rowcount=$row['count']+1;
+
+						echo ($rowcount);
+					}else{
+						die ('SQL Error: ' . mysqli_error($connect));
+					}
+
+					?>					
+
 					<table  class="form_table ">
 						<form method="post" action="controller_s/phase.php">
 							<tr class="form_table_row" style="height: 60px;">
 								<td class="form_table_row_description" style="width: 200px;">Phase</td>
-								<td><input type="text" name="id" placeholder="id" size="10" class="form_table_row_input"></td>
+								<td>id<input type="text" name="id" value="<?php echo $rowcount; ?>" size="2" class="form_table_row_input" readonly></td>
 								<td><input type="text" name="phase" placeholder="phase" size="10" class="form_table_row_input"></td>
 								<td>
 									<button type="submit" class="button button1" style="margin-left: 10px;padding: 2px 10px;">Add</button>						

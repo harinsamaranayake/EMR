@@ -17,20 +17,30 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1507481960284" expanded="true" signature="293:354" ph="INSERT INTO Phase... " />
+                <marker date="1507485960008" expanded="true" signature="189:215" ph="INSERT INTO Phase... " />
+                <marker date="1507485960008" expanded="true" signature="265:283" ph="..." />
+                <marker date="1507485960008" expanded="true" signature="289:337" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="area.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="area.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard/controller_s/area.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507481958950" expanded="true" signature="297:364" ph="INSERT INTO Amphere... " />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rates.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard/rates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,6 +79,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,7 +96,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -118,11 +128,12 @@
       <workItem from="1507445220022" duration="638000" />
       <workItem from="1507482361774" duration="3000" />
       <workItem from="1507482608718" duration="597000" />
+      <workItem from="1507490844634" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1238000" />
+    <option name="totallyTimeSpent" value="1255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -162,7 +173,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507481960284" expanded="true" signature="293:354" ph="INSERT INTO Phase... " />
+            <marker date="1507485960008" expanded="true" signature="189:215" ph="INSERT INTO Phase... " />
+            <marker date="1507485960008" expanded="true" signature="265:283" ph="..." />
+            <marker date="1507485960008" expanded="true" signature="289:337" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/controller_s/area.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/controller_s/occupantType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507485960008" expanded="true" signature="189:215" ph="INSERT INTO Phase... " />
+            <marker date="1507485960008" expanded="true" signature="265:283" ph="..." />
+            <marker date="1507485960008" expanded="true" signature="289:337" ph="..." />
           </folding>
         </state>
       </provider>
@@ -175,7 +208,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507481960284" expanded="true" signature="293:354" ph="INSERT INTO Phase... " />
+            <marker date="1507485960008" expanded="true" signature="189:215" ph="INSERT INTO Phase... " />
+            <marker date="1507485960008" expanded="true" signature="265:283" ph="..." />
+            <marker date="1507485960008" expanded="true" signature="289:337" ph="..." />
           </folding>
         </state>
       </provider>
@@ -184,9 +219,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507481958950" expanded="true" signature="297:364" ph="INSERT INTO Amphere... " />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/rates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
