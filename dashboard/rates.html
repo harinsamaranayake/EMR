@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Super Administrator</title>
+	<title>System Update</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -69,19 +69,84 @@
 			<div class="window_container" style="padding: 50px 20px;">
 				<!-- main content  -->
 				<!-- .............................................................................................................................................................. -->
-				<div>
-					<a href="#"><span><img src="icon/home.png" class="imghome"></span></a>
-					<a href="#"><span><img src="icon/myaccount.png" class="imghome"></span></a>
-					<a href="#"><span><img src="icon/super.png" class="imghome"></span></a>
-					<a href="#"><span><img src="icon/area.png" class="imghome"></span></a>				
+				<div class="topic" style="margin-left: 50px;padding-top: 15px;font-size: 25px;color: #0EB3B3;">
+					<span><u>System Updates</u></span>						
 				</div>
 
-				<div>
-					<a href="#"><span><img src="icon/rates.png" class="imghome"></span></a>
-					<a href="#"><span><img src="icon/analytics.png" class="imghome"></span></a>
-					<a href="#"><span><img src="icon/notifications.png" class="imghome"></span></a>
-					<a href="#"><span><img src="icon/settings.png" class="imghome"></span></a>				
-				</div>									
+				
+					<table  class="form_table ">
+						<form method="post" action="controller_s/phase.php">
+							<tr class="form_table_row" style="height: 60px;">
+								<td class="form_table_row_description" style="width: 200px;">Phase</td>
+								<td><input type="text" name="id" placeholder="id" size="10" class="form_table_row_input"></td>
+								<td><input type="text" name="phase" placeholder="phase" size="10" class="form_table_row_input"></td>
+								<td>
+									<button type="submit" class="button button1" style="margin-left: 10px;padding: 2px 10px;">Add</button>						
+								</td>
+							</tr>
+						</form>
+
+						<form method="post" action="controller_s/amphere.php">
+							<tr class="form_table_row" style="height: 60px;">
+								<td class="form_table_row_description" style="width: 200px;">Amphere</td>
+								<td><input type="text" name="id" placeholder="id" size="10" class="form_table_row_input"></td>
+								<td><input type="text" name="amphere" placeholder="amphere" size="10" class="form_table_row_input"></td>
+								<td>
+									<button type="submit" class="button button1" style="margin-left: 10px;padding: 2px 10px;">Add</button>						
+								</td>
+							</tr>
+						</form>
+
+						<form method="post" action="controller_s/occupantType.php">
+							<tr class="form_table_row" style="height: 60px;">
+								<td class="form_table_row_description" style="width: 200px;">Occupant Type</td>
+								<td><input type="text" name="id" placeholder="id" size="10" class="form_table_row_input"></td>
+								<td><input type="text" name="occupantType" placeholder="occupant" size="10" class="form_table_row_input"></td>
+								<td>
+									<button type="submit" class="button button1" style="margin-left: 10px;padding: 2px 10px;">Add</button>						
+								</td>
+							</tr>
+						</form>
+
+						<form method="post" action="controller_s/connection.php">
+							<tr class="form_table_row" style="height: 60px;">
+								<td class="form_table_row_description" style="width: 200px;">Connection Type</td>
+								<td><input type="text" name="id" placeholder="id" size="10" class="form_table_row_input"></td>
+								<td><input type="text" name="connection" placeholder="connection" size="10" class="form_table_row_input"></td>
+								<td>
+									<button type="submit" class="button button1" style="margin-left: 10px;padding: 2px 10px;">Add</button>						
+								</td>
+							</tr>
+						</form>				
+
+						<form method="post" action="controller_s/area.php">
+							<tr class="form_table_row" style="height: 60px;">
+								<td class="form_table_row_description" style="width: 200px;">Area</td>
+								<td><input type="text" name="id" placeholder="id" size="10" class="form_table_row_input"></td>
+								<td>
+									<select name="province" class="form_table_row_select" style="margin-left: 10px;width: 125px;">
+										<option value="" disabled selected hidden>province</option>
+										<option value="Western">Western</option>
+										<option value="Southern">Southern</option>
+										<option value="Nothern">Nothern</option>
+									</select>
+								</td>
+								<td>
+									<select name="district" class="form_table_row_select" style="margin-left: 10px;width: 125px;">
+										<option value="" disabled selected hidden>district</option>
+										<option value="Colombo">Colombo</option>
+										<option value="Gampaha">Gampaha</option>
+										<option value="Kaluthara">Kaluthara</option>
+									</select>
+								</td>
+								<td><input type="text" name="area" placeholder="area" size="10" class="form_table_row_input"></td>				
+								<td>
+									<button type="submit" class="button button1" style="margin-left: 10px;padding: 2px 10px;">Add</button>						
+								</td>
+							</tr>
+						</form>
+					</table>
+											
 				<!-- .............................................................................................................................................................. -->
 			</div>
 		</span>	
