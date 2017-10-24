@@ -1,0 +1,45 @@
+body{
+	font-family: arial,sans-serif;
+	font-style: 14px;
+}
+
+
+.login{
+	width:350px;
+	margin:35px auto;
+}
+
+input{
+	width:100%;
+	border-radius: 5px;
+	border-style: solid;
+	
+	display: block;
+	padding:10px;
+	border-color: #EBECEC;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+button{
+	width:100%;
+	border-radius: 5px;
+	border-style: solid;
+	background:#40D0EC;
+	border-color: white;
+	padding:10px;
+	color:white;
+	
+}
+
+img{
+	margin:250px 0 0 0;
+
+}
+
+h1{
+	color:#40D0EC;
+}
+
+
