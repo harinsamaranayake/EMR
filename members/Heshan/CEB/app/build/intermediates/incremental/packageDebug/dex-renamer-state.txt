@@ -1,0 +1,7 @@
+#Sun Oct 29 22:59:47 IST 2017
+base.0=C\:\\Users\\hesha\\Desktop\\Backup_from_c\\CEB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_998ec30c5549836b4d7a62ba67b8ee892b536c2a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\hesha\\Desktop\\Backup_from_c\\CEB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1b981d574d1c059777b5ab789603792902365364\\classes.dex
+base.1=C\:\\Users\\hesha\\Desktop\\Backup_from_c\\CEB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1b981d574d1c059777b5ab789603792902365364
+file.0=C\:\\Users\\hesha\\Desktop\\Backup_from_c\\CEB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_998ec30c5549836b4d7a62ba67b8ee892b536c2a\\classes.dex
