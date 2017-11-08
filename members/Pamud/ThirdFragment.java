@@ -1,4 +1,4 @@
-package com.example.samud.emrapp;
+package com.example.samud.emrapplication;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Samud on 10/13/2017.
+ * Created by Samud on 11/7/2017.
  */
 
 public class ThirdFragment extends Fragment {
@@ -22,4 +22,3 @@ public class ThirdFragment extends Fragment {
         return myView;
     }
 }
-
