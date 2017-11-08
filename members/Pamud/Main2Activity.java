@@ -1,4 +1,4 @@
-package com.example.samud.emrapp;
+package com.example.samud.emrapplication;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -91,10 +91,6 @@ public class Main2Activity extends AppCompatActivity
         } else if (id == R.id.nav_third_layout) {
             fragmentManager.beginTransaction().replace(R.id.content_frame,new ThirdFragment()).commit();
 
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
 
         }
 
