@@ -1,4 +1,4 @@
-package com.example.samud.emrapp;
+package com.example.samud.emrapplication;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -22,4 +22,5 @@ public class FirstFragment extends Fragment {
         return myView;
     }
 }
+
 
