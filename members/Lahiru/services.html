@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>services</title>
+	<link rel="stylesheet" type="text/css" href="CSS/services.css">
+</head>
+<body>
+
+	<div class="main" align="center">
+		<img src="icon/service.png">
+		<h1 align="center">Services</h1>
+	</div>
+
+	<div class="breakdowns">
+		<div class="heading">
+			<h1 align="center">Electricity Breakdowns</h1>
+			
+		</div>
+
+		
+		
+		<form method="post" action="services.php">
+
+			<label for="cus_id">Customer ID :</label>
+			<input type="text" name="cus_id" id="cus_id">
+
+			<label for="nic" >NIC :</label>
+			<input type="text" name="nic" id ="nic">
+
+			<label for="con_num" >Contact Number :</label>
+			<input type="text" name="con_num" id ="con_num">
+
+			<label>Description :</label>
+			<textarea name="comment" rows="10" cols="100">
+			</textarea>
+
+			<button class="but_2" type="reset" name="cancel"><b>Cancel</b></button>
+
+			<button class="but_1" type="submit" name="submit"><b>Report</b></button>	
+
+		</form>
+	</div>
+
+	<div class="issues">
+
+		<div class="heading">
+			<h1 align="center">Meter Issues</h1>
+			
+		</div>
+
+
+		
+		<form method="post" action="services.php">
+
+			<label for="cus_id">Customer ID :</label>
+			<input type="text" name="cus_id" id="cus_id">
+
+			<label for="nic" >Meter ID :</label>
+			<input type="text" name="nic" id ="nic">
+
+			<label for="con_num" >Contact Number :</label>
+			<input type="text" name="con_num" id ="con_num">
+
+			<label>Description :</label>
+			<textarea name="comment" rows="10" cols="100">
+			</textarea>
+
+			<button class="but_2" type="reset" name="cancel"><b>Cancel</b></button>
+			
+			<button class="but_1" type="submit" name="submit"><b>Report</b></button>
+
+		</form>
+	</div>
+
+</body>
+</html>
