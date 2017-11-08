@@ -7,9 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Samud on 10/13/2017.
- */
 
 public class FirstFragment extends Fragment {
 
