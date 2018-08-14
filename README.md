@@ -15,5 +15,25 @@ Our solution
   03. Web account for the customer.
   
 Functionalities
-  01.
-
+  01. Readers mobile application
+      - Locate readers location.
+      - Predict the shortest path along daily house quota.
+      - Enter the readings and get the monthly usage and bill amount.
+      - If unable to reach the meter get the average usage.
+      - Submit the reading.
+      
+  02. Area administrator web application
+      - Locate readers.
+      - Approve readings.
+      - Manage issues and breakdowns.
+      - Setup usage rates.
+      
+  03. Users web account
+      - View e-bills.
+      - Report issues and breakdowns.
+      - Predict current month usage.
+      
+Technologies used
+  01. Android
+  02. HTML5 | CSS3 | JavaScript | Bootstrap | CI Framework
+  03. MySQL
